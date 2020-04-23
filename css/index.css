@@ -1,0 +1,339 @@
+.web_box {
+  width: 100%;
+  overflow: hidden;
+  background: white;
+}
+.web_header {
+  height: 4rem;
+  background-color: #000000;
+}
+.web_header .web_width {
+  width: 64.0625rem;
+  height: 4rem;
+  margin: auto;
+}
+.web_header .left_img {
+  display: block;
+  margin: auto;
+  float: left;
+  line-height: 4rem;
+  color: white;
+  font-size: 1.125rem;
+}
+.web_header .left_img img {
+  width: 7.521rem;
+  height: 1.271rem;
+}
+.web_header .left_img span {
+  margin-left: 20px;
+  border-left: 1px solid #a0a0a0;
+  padding-left: 20px;
+}
+
+.web_header .right_date {
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(80, 80, 80, 1);
+  font-size: 0.9375rem;
+  float: right;
+  margin-right: 1.5625rem;
+  line-height: 4rem;
+}
+.web_header .right_date span {
+  color: white;
+  margin-left: 3.365rem;
+}
+/*以上是头部样式*/
+
+.web_footer {
+  width: 100%;
+  height: 4.583rem;
+  background: #444546;
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(128, 128, 128, 1);
+  font-size: 0.729rem;
+  text-align: center;
+  line-height: 4.583rem;
+}
+/*以上是底部样式*/
+
+.web_content {
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+}
+.web_content h3 {
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: rgba(38, 38, 38, 1);
+  font-size: 1.3625rem;
+  margin-top: 0.16875rem;
+  text-align: center;
+}
+.web_content .line {
+  width: 8.49rem;
+  /*height: 0.46875rem;*/
+  display: block;
+  margin-bottom: 1.5625rem;
+}
+
+.web_content .web_content_tit {
+  width: 61.458rem;
+  margin: 1.3rem auto 0;
+  text-align: center;
+}
+.web_content ul {
+  width: 61.458rem;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.web_content ul li {
+  width: 29.5rem;
+  /*height:17.1875rem;*/
+  background: rgba(255, 255, 255, 1);
+  border: 0.052rem solid rgba(229, 229, 229, 1);
+  padding: 1rem 2rem;
+  border-radius: 0.26rem;
+  float: left;
+  margin-right: 1.729rem;
+  margin-top: 1.667rem;
+  /* cursor: pointer; */
+  transition: 0.3s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.web_content ul li:nth-child(2n) {
+  margin-right: 0;
+}
+.web_content ul li img {
+  width: 1.4rem;
+}
+.web_content ul li h4 {
+  font-family: Microsoft YaHei;
+  font-weight: 700;
+  color: rgba(38, 38, 38, 1);
+  font-size: 1.042rem;
+  /* text-align: center; */
+  margin-top: 0rem;
+  /* margin-bottom: 0rem; */
+  margin-left: 0.5rem;
+  pointer-events: none;
+  display: inline-block;
+}
+
+.web_content ul li div {
+  padding: 0.5rem 0 0 0.4rem;
+}
+.web_content ul li div span {
+  padding: 0.3rem 0.5rem;
+  width: 110px;
+  display: inline-block;
+  text-align: center;
+  /* margin: 0.3rem 0.5rem; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.web_content ul li div img {
+  width: 1rem;
+}
+.web_content ul li div .active {
+  background: url(../images/active.png) no-repeat center;
+  color: white;
+  cursor: pointer;
+}
+
+.qiye h3 {
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: white;
+  font-size: 1.3625rem;
+  margin-top: 0.16875rem;
+  text-align: center;
+}
+.qiye {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+  /* margin-top: 1.667rem; */
+  /* margin-bottom: 2.1875rem; */
+  background: url(../images/bg.png) no-repeat center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.qiye .web_content_tit {
+  color: white;
+  /* padding-top: 1.5rem; */
+  width: 61.458rem;
+  margin: 1.5rem auto 0;
+  text-align: center;
+}
+.qiye img {
+  width: 1.5rem;
+  margin-top: 0.85rem;
+}
+.qiye ul {
+  width: 61.458rem;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.qiye ul li {
+  width: 19.3rem;
+  /*height:17.1875rem;*/
+  float: left;
+  margin-right: 1.729rem;
+  margin-top: 1.667rem;
+  /* cursor: pointer; */
+  transition: 0.3s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.qiye ul li:nth-child(3n) {
+  margin-right: 0;
+}
+.border-circle {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+}
+.qiye ul li div {
+  display: inline-block;
+  width: 12rem;
+  padding-left: 0.5rem;
+  line-height: 1rem;
+}
+.qiye h4 {
+  font-family: Microsoft YaHei;
+  font-weight: 400;
+  color: white;
+  font-size: 0.842rem;
+  display: inline-block;
+}
+.qiye p {
+  font-family: Microsoft YaHei;
+  font-size: 0.7rem;
+  color: white;
+}
+/*以上是中间部分样式*/
+
+#myCarousel {
+  width: 100%;
+  height: 31.042rem;
+}
+.carousel .line {
+  width: 100%;
+  height: 31.042rem;
+  position: absolute;
+}
+
+.pingtai .title {
+  /* width: 100%;
+  height: 31.042rem; */
+  position: absolute;
+  top: 12rem;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 18rem;
+}
+.pingtai .content {
+  background: rgba(245, 245, 245, 1);
+  padding: 1rem;
+}
+.pingtai .content-n {
+  width: 61.458rem;
+  margin: auto;
+  background: white;
+  margin-top: 0.5rem;
+  box-shadow: 10px 10px 8px #eee;
+  padding: 2rem;
+}
+.content-n ul {
+  width: 37rem;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+.content-n ul li {
+  float: left;
+  margin-right: 5rem;
+  transition: 0.3s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.content-n ul li:nth-child(3) {
+  margin-right: 0;
+}
+
+.dbx-bg {
+  width: 9rem;
+  background: url(../images/dbx.png) no-repeat center;
+  height: 9rem;
+  background-size: contain;
+  padding-top: 1.8rem;
+  text-align: center;
+}
+.dbx-bg img {
+  width: 1.3rem;
+}
+.dbx-bg small {
+  font-size: 0.7rem;
+  color: #7d7d7d;
+}
+.ditu {
+  width: 80%;
+}
+.web_header .right_date .active {
+  color: #469bf1;
+  border-bottom: 2px solid #469bf1;
+}
+
+.tanchuang {
+  text-align: center;
+}
+.tanchuang ul {
+  overflow: hidden;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.tanchuang ul li {
+  width: 19.3rem;
+  /*height:17.1875rem;*/
+  float: left;
+  margin-right: 1.729rem;
+  margin-top: 1.667rem;
+  /* cursor: pointer; */
+  transition: 0.3s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.tanchuang ul li div {
+  display: inline-block;
+  width: 12rem;
+  padding-left: 0.5rem;
+  line-height: 1rem;
+  text-align: left;
+}
+.tanchuang img {
+  width: 1.5rem;
+  margin-top: 0.85rem;
+}

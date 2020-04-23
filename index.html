@@ -1,0 +1,277 @@
+<!--
+ * @Descripttion:
+ * @version:
+ * @Author: Caoshuangna
+ * @Date: 2020-01-09 09:27:49
+ * @LastEditors: Caoshuangna
+ * @LastEditTime: 2020-04-17 15:00:26
+ -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>汇养通</title>
+  <!--引用bootstrap文件-->
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--公共css-->
+  <link rel="stylesheet" href="css/base.css">
+  <!--index   css-->
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body onLoad="showTime()">
+<div class="web_box">
+  <!--头部-->
+  <div class="web_header">
+    <div class="web_width">
+      <a class="left_img" href="">
+        <img src="images/logo.png" alt="">
+        <span> 汇养通</span>
+      </a>
+
+      <div class="right_date">
+        <span><a href="pingtaijieshao.html" style="color: whitesmoke">平台介绍</a></span>
+        <span><a href="lianxiwomen.html" style="color: whitesmoke">联系我们</a></span>
+      </div>
+    </div>
+  </div>
+  <!--头部-->
+  <!--内容-->
+  <div id="myCarousel" class="carousel slide">
+    <img class="line" src="images/map.png" alt="">
+  </div>
+  <div class="web_content">
+    <div class="web_content_tit">
+      <span>CITY</span>
+      <h3>城市版</h3>
+    </div>
+    <ul id="cityTypeList">
+    </ul>
+  </div>
+  <div class="qiye">
+    <div class="web_content_tit">
+      <span>ENTERPRISE</span>
+      <h3>企业版</h3>
+    </div>
+    <ul>
+      <li>
+        <p class='border-circle'>
+          <img src="images/shequ.png" alt="">
+        </p>
+        <div>
+          <h4>社区养老管理系统</h4>
+          <p>为日间照料、综合性养老服务中心、助老食堂等养老服务设施提供科学化的管理。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/jigou.png" alt="">
+        </p>
+        <div>
+          <h4>机构养老管理系统</h4>
+          <p>为养老院、敬老院等养老服务机构量身定制开发，管理院内“人”、“物”、“钱”。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/zhucan.png" alt="">
+        </p>
+        <div>
+          <h4>助餐系统</h4>
+          <p>为养老食堂提供餐饮管理服务。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/fuka.png" alt="">
+        </p>
+        <div>
+          <h4>福卡管理系统</h4>
+          <p>可以老年人提供积福享福；为志愿者提供攒爱心，送爱心的功能。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/jianguan.png" alt="">
+        </p>
+        <div>
+          <h4>政府监管系统</h4>
+          <p>为市级智慧养老平台运营人员和政府管理层提供大量的数据分析功能。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/weike.png" alt="">
+        </p>
+        <div>
+          <h4>微课教育平台</h4>
+          <p>为养老产业从业人员提供线上技能培训，考试等综合服务。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/menhu.png" alt="">
+        </p>
+        <div>
+          <h4>门户网站</h4>
+          <p>为客户提供全方位的养老服务综合展示窗口。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/pinggu.png" alt="">
+        </p>
+        <div>
+          <h4>评估系统</h4>
+          <p>提供标准化评估体系，评估人员通过智能APP，方便对老年人能力进行评估和管理。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/huawu.png" alt="">
+        </p>
+        <div>
+          <h4>话务中心</h4>
+          <p>包括话务功能、服务调度、服务管理系统、养老知识库管理系统等模块。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/dashuju.png" alt="">
+        </p>
+        <div>
+          <h4>大数据分析</h4>
+          <p>提供养老大数据的综合展示、分析，帮助决策者精准把控市场动向。</p>
+        </div>
+      </li>
+      <li>
+        <p class='border-circle'>
+          <img src="images/weixin.png" alt="">
+        </p>
+        <div>
+          <h4>微信公众号</h4>
+          <p>为广大市民提供一个享受养老服务，了解养老咨讯的移动新媒体渠道</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--内容-->
+  <!--底部-->
+  <div class="web_footer">
+    Copyright © 2020 JBINFO All Rights Reserved. 山东省青鸟软通信息技术股份有限公司 版权所有
+  </div>
+  <!--底部-->
+</div>
+<!-- 弹窗 -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+          aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="cityName"></h4>
+      </div>
+      <div class="modal-body">
+        <div class="tanchuang">
+          <ul id="systemList">
+            <li>
+              <p class="border-circle">
+                <img src="images/shequ.png" alt="">
+              </p>
+              <div>
+                <h4>社区养老管理系统</h4>
+                <small>为日间照料、综合性养老服务中心、助老食堂等养老服务设施提供科学化的管理。</small>
+              </div>
+            </li>
+            <li>
+              <p class="border-circle">
+                <img src="images/jigou.png" alt="">
+              </p>
+              <div>
+                <h4>机构养老管理系统</h4>
+                <small>为养老院、敬老院等养老服务机构量身定制开发，管理院内“人”、“物”、“钱”。</small>
+              </div>
+            </li>
+            <li>
+              <p class="border-circle">
+                <img src="images/zhucan.png" alt="">
+              </p>
+              <div>
+                <h4>助餐系统</h4>
+                <small>简介简介简介简介简介简介简介简介简介简介简介简介简介</small>
+              </div>
+            </li>
+            <li>
+              <p class="border-circle">
+                <img src="images/fuka.png" alt="">
+              </p>
+              <div>
+                <h4>福卡管理系统</h4>
+                <small>简介简介简介简介简介简介简介简介简介简介简介简介简介</small>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+</body>
+<script src="js/data.js"></script>
+<script type="text/javascript">
+console.info(xzqh)
+
+let obj = document.getElementById("cityTypeList")
+let htmStr = ""
+
+
+xzqh.forEach(x => {
+    obj.innerHTML = "";
+    htmStr += '<li> <img src="images/city.png" alt=""><h4>' + x.name_sheng + '</h4><div><p>'
+    x.shi_list.forEach(s => {
+      if (s.isOperate) {
+        htmStr += '<span class="active" data-toggle="modal" data-target="#myModal" onclick=initMyModal(\'' + JSON.stringify(s) + '\')> <img src="images/active-r.png" alt="">' + s.name_shi + '</span>'
+      } else {
+        htmStr += '<span>' + s.name_shi + '</span>'
+      }
+    })
+    htmStr += '</p></div></li>'
+    obj.innerHTML = htmStr;
+
+  }
+)
+
+function initMyModal(cityItemStr) {
+  let modalStr = ""
+  document.getElementById("systemList").innerHTML = ""
+  let cityItem = JSON.parse(cityItemStr)
+  document.getElementById("cityName").innerHTML = cityItem.name_shi
+
+
+  cityItem.system.forEach(cs => {
+      if (cs.isOperate) {
+        modalStr += '<li><a href="' + cs.linkUrl + '" target="_blank"><p class="border-circle"> <img src="images/' + cs.icon + '" alt=""></p><div><h4>'
+          + cs.systemName + '</h4><small>' + cs.introduce + '</small></div></a></li>'
+      }
+    }
+  )
+
+  document.getElementById("systemList").innerHTML = modalStr
+
+}
+
+
+</script>
+
+</html>
