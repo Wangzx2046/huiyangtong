@@ -15,7 +15,7 @@ const xzqh = [{
           "systemName": "微信公共号",
           "isOperate": true,
           "icon": "weixin.png",
-          "linkUrl": "",
+          "linkUrl": "http://baidu.com",
           "introduce": "为广大市民提供一个享受养老服务，了解养老咨讯的移动新媒体渠道"
         },
         {
